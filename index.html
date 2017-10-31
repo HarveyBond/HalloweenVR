@@ -8,9 +8,11 @@
 <body>
 <a-scene>
   <a-assets>
-    <img id="texture" src="Pumkin.jpg">
+    <a-asser-item id="pumpkin-obj" src="Pumpkin.obj"></a-asser-item>
+    <a-asser-item id="pumpkin-mtl" src="Pumpkin.mtl"></a-asser-item>
+    <img id="texture" src="Pumpkin.jpg">
   </a-assets>
-<a-sphere position="0 1.25 -1" radius="1.25" src="Pumkin.jpg"></a-sphere>
+  <a-entity scale="0.1 0.1 0.1" obj-model="obj: #pumpkin-obj; mtl: #pumpkin-mtl" src="Pumpkin.jpg"></a-entity>
 <a-cylinder position="1 0.75 1"radius="0.5"height="1.5" color="#FFC65D"
 
                 animation="property: color; dir: alternate; dur: 1000;
