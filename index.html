@@ -11,17 +11,13 @@
     <img id="texture" src="Pumkin.jpg">
     <audio id="song" src="song.mp3"></audio>
   </a-assets>
-<a-sphere position="0 1.25 -1" radius="1.25" src="Pumkin.jpg" rotation="0 90 0" sound="src: #song; autoplay: true; loop: true;"></a-sphere>
-<a-cylinder position="1 0.75 1"radius="0.5"height="1.5" color="#FFC65D"
+<a-sphere position="1 1 1 " radius="2" src="Pumkin.jpg" rotation="0 -90 0" sound="src: #song; autoplay: true; loop: true;"
 
-                animation="property: color; dir: alternate; dur: 1000;
-                           easing: easeInSine; loop: true; to: #5F5"
-                animation__scale="property: scale; dir: alternate; dur: 200;
-                           easing: easeInSine; loop: true; to: 1.2 1 1.2"
-                animation__yoyo="property: position; dir: alternate; dur: 1000;
-                                 easing: easeInSine; loop: true; to: 0 2 0">>
-                               </a-cylinder>
-<a-plane width="4" height="4" rotation="-90 0 0" ></a-plane>
+    animation__yoyo="property: position; dir: alternate; dur: 1000;
+                     easing: easeInSine; loop: true; to: 2 0 0">>
+                   </a-sphere>
+
+
 <a-sky src="sky.jpg"></a-sky>
 <a-entity position="0 0 3.8">
 <a-camera></a-camera>
