@@ -9,9 +9,9 @@
 <a-scene>
   <a-assets>
     <img id="texture" src="Pumkin.jpg">
+    <audio id="song" src="song.mp3"></audio>
   </a-assets>
-<a-sphere position="0 1.25 -1" radius="1.25" src="Pumkin.jpg" rotation="0 90 0"></a-sphere>
- <a-sound src="Monster Mash(lyrics).mp4" autoplay="true" position="0 2 5"></a-sound>
+<a-sphere position="0 1.25 -1" radius="1.25" src="Pumkin.jpg" rotation="0 90 0" sound="src: #song; autoplay: true; loop: true;"></a-sphere>
 <a-cylinder position="1 0.75 1"radius="0.5"height="1.5" color="#FFC65D"
 
                 animation="property: color; dir: alternate; dur: 1000;
